@@ -1,0 +1,8 @@
+{
+  "appId": "com.budgetwise.app",
+  "appName": "BudgetWise",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}
