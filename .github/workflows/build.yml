@@ -27,6 +27,12 @@ jobs:
     - name: Install npm dependencies
       run: npm install
     
+    - name: Check www folder
+      run: ls -la www/
+    
+    - name: Check package.json
+      run: cat package.json
+    
     - name: Sync Capacitor
       run: npx cap sync android
     
